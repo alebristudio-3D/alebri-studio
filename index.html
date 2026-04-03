@@ -3,29 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alebri Studio | De lo digital a lo físico</title>
+    <title>Alebri Studio | De lo digital a lo f&iacute;sico</title>
     <meta
       name="description"
-      content="Alebri Studio diseña y fabrica piezas 3D con una estética premium, minimal y funcional."
+      content="Alebri Studio dise&ntilde;a y fabrica piezas 3D con una est&eacute;tica premium, minimal y funcional."
     />
     <script>
       document.documentElement.classList.add("has-js");
     </script>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="page-frame" aria-hidden="true"></div>
+
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Alebri Studio, ir al inicio">
-        <span class="brand__mark"></span>
-        <span class="brand__text">Alebri Studio</span>
+        <img
+          class="brand__logo brand__logo--mark"
+          src="assets/logo-mark.png"
+          alt=""
+        />
+        <img
+          class="brand__logo brand__logo--horizontal"
+          src="assets/logo-horizontal.png"
+          alt=""
+        />
+        <span class="sr-only">Alebri Studio</span>
       </a>
-      <nav class="site-nav" aria-label="Navegación principal">
+
+      <nav class="site-nav" aria-label="Navegaci&oacute;n principal">
         <a href="#servicios">Servicios</a>
         <a href="#proyectos">Proyectos</a>
         <a href="#proceso">Proceso</a>
         <a href="#faq">FAQ</a>
       </nav>
+
       <a class="site-header__cta" href="#contacto">Contacto</a>
     </header>
 
@@ -33,14 +46,15 @@
       <section class="section hero reveal" id="inicio">
         <div class="container hero__layout">
           <div class="hero__content">
-            <p class="eyebrow">Estudio de diseño y fabricación 3D</p>
-            <h1>De lo digital a lo físico</h1>
+            <p class="eyebrow">Estudio de dise&ntilde;o y fabricaci&oacute;n 3D</p>
+            <h1>De lo digital a lo f&iacute;sico</h1>
             <p class="hero__lead">
               Alebri Studio transforma ideas en piezas tangibles con una
-              combinación precisa de modelado, prototipado y producción en 3D.
-              Cada proyecto se desarrolla con criterio material, claridad
-              funcional y una mirada editorial.
+              combinaci&oacute;n precisa de modelado, prototipado y producci&oacute;n
+              en 3D. Cada proyecto se desarrolla con criterio material,
+              claridad funcional y una mirada editorial.
             </p>
+
             <div class="hero__actions">
               <a class="button button--primary" href="#contacto"
                 >Cotizar por WhatsApp</a
@@ -49,58 +63,33 @@
                 >Explorar proyectos</a
               >
             </div>
+
             <ul class="hero__facts" aria-label="Capacidades principales">
               <li>Modelado 3D</li>
-              <li>Fabricación premium</li>
+              <li>Fabricaci&oacute;n premium</li>
               <li>Series cortas y prototipos</li>
             </ul>
           </div>
 
-          <div class="hero__visual" aria-hidden="true">
+          <div class="hero__visual">
             <div class="hero-object">
-              <svg
-                class="hero-object__svg"
-                viewBox="0 0 540 620"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+              <video
+                class="hero-media"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="assets/project-07.png"
+                aria-hidden="true"
               >
-                <rect x="56" y="54" width="428" height="512" rx="214" />
-                <line x1="98" y1="520" x2="442" y2="520" />
-                <line x1="98" y1="124" x2="442" y2="124" />
-                <line x1="270" y1="84" x2="270" y2="536" />
-                <ellipse cx="270" cy="564" rx="136" ry="20" class="solid" />
-                <g class="hero-object__rings">
-                  <ellipse cx="270" cy="142" rx="40" ry="11" />
-                  <ellipse cx="270" cy="160" rx="54" ry="12" />
-                  <ellipse cx="270" cy="178" rx="74" ry="13" />
-                  <ellipse cx="270" cy="196" rx="96" ry="14" />
-                  <ellipse cx="270" cy="214" rx="116" ry="14" />
-                  <ellipse cx="270" cy="232" rx="132" ry="15" />
-                  <ellipse cx="270" cy="250" rx="146" ry="16" />
-                  <ellipse cx="270" cy="268" rx="156" ry="16" />
-                  <ellipse cx="270" cy="286" rx="164" ry="17" />
-                  <ellipse cx="270" cy="304" rx="168" ry="18" />
-                  <ellipse cx="270" cy="322" rx="166" ry="17" />
-                  <ellipse cx="270" cy="340" rx="158" ry="17" />
-                  <ellipse cx="270" cy="358" rx="148" ry="16" />
-                  <ellipse cx="270" cy="376" rx="136" ry="15" />
-                  <ellipse cx="270" cy="394" rx="122" ry="14" />
-                  <ellipse cx="270" cy="412" rx="108" ry="14" />
-                  <ellipse cx="270" cy="430" rx="92" ry="13" />
-                  <ellipse cx="270" cy="448" rx="76" ry="12" />
-                  <ellipse cx="270" cy="466" rx="62" ry="11" />
-                </g>
-                <path
-                  d="M230 142C184 188 164 260 181 336C194 391 214 434 228 466"
-                />
-                <path
-                  d="M310 142C356 188 376 260 359 336C346 391 326 434 312 466"
-                />
-              </svg>
+                <source src="assets/hero-loop.mp4" type="video/mp4" />
+              </video>
             </div>
+
             <div class="hero__caption">
-              <span>Objeto conceptual impreso en capas</span>
-              <span>Precisión material</span>
+              <span>Secuencia de estudio y objeto impreso</span>
+              <span>Precisi&oacute;n material</span>
             </div>
           </div>
         </div>
@@ -112,6 +101,7 @@
             <p class="eyebrow">Servicios</p>
             <h2>Piezas y procesos pensados para estudio, marca y objeto.</h2>
           </div>
+
           <div class="services-grid">
             <article class="service-card">
               <div class="service-card__icon">
@@ -121,8 +111,9 @@
                 </svg>
               </div>
               <h3>Piezas personalizadas</h3>
-              <p>Objetos únicos construidos a partir de requerimientos reales.</p>
+              <p>Objetos &uacute;nicos construidos a partir de requerimientos reales.</p>
             </article>
+
             <article class="service-card">
               <div class="service-card__icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -133,6 +124,7 @@
               <h3>Prototipos</h3>
               <p>Versiones de prueba para evaluar forma, escala y ensamble.</p>
             </article>
+
             <article class="service-card">
               <div class="service-card__icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -140,9 +132,10 @@
                   <path d="M8.5 13H15.5" />
                 </svg>
               </div>
-              <h3>Objetos y diseño</h3>
-              <p>Piezas con vocación artística, utilitaria o editorial.</p>
+              <h3>Objetos y dise&ntilde;o</h3>
+              <p>Piezas con vocaci&oacute;n art&iacute;stica, utilitaria o editorial.</p>
             </article>
+
             <article class="service-card">
               <div class="service-card__icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -154,8 +147,9 @@
                 </svg>
               </div>
               <h3>Soluciones funcionales</h3>
-              <p>Respuesta material para problemas concretos y piezas útiles.</p>
+              <p>Respuesta material para problemas concretos y piezas &uacute;tiles.</p>
             </article>
+
             <article class="service-card">
               <div class="service-card__icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -165,8 +159,8 @@
                   <path d="M9 5V19" />
                 </svg>
               </div>
-              <h3>Producción por lote</h3>
-              <p>Series cortas con consistencia visual, tecnica y temporal.</p>
+              <h3>Producci&oacute;n por lote</h3>
+              <p>Series cortas con consistencia visual, t&eacute;cnica y temporal.</p>
             </article>
           </div>
         </div>
@@ -180,32 +174,20 @@
               <h2>Un lenguaje sobrio para objetos que nacen del detalle.</h2>
             </div>
             <p class="section-copy">
-              La galería propone composiciones escultóricas, prototipos y
-              sistemas funcionales desde una misma materialidad monocromática.
+              La galer&iacute;a propone composiciones escult&oacute;ricas,
+              prototipos y sistemas funcionales desde una misma materialidad
+              monocrom&aacute;tica.
             </p>
           </div>
 
           <div class="portfolio-grid">
             <article class="project-card">
               <div class="project-card__image">
-                <svg viewBox="0 0 360 480" aria-hidden="true">
-                  <ellipse cx="180" cy="430" rx="105" ry="16" class="solid" />
-                  <path d="M138 110C117 142 106 190 114 252C122 311 141 357 160 398" />
-                  <path d="M222 110C243 142 254 190 246 252C238 311 219 357 200 398" />
-                  <ellipse cx="180" cy="132" rx="36" ry="9" />
-                  <ellipse cx="180" cy="152" rx="52" ry="10" />
-                  <ellipse cx="180" cy="172" rx="74" ry="11" />
-                  <ellipse cx="180" cy="192" rx="92" ry="12" />
-                  <ellipse cx="180" cy="212" rx="108" ry="13" />
-                  <ellipse cx="180" cy="232" rx="118" ry="13" />
-                  <ellipse cx="180" cy="252" rx="124" ry="14" />
-                  <ellipse cx="180" cy="272" rx="126" ry="14" />
-                  <ellipse cx="180" cy="292" rx="122" ry="13" />
-                  <ellipse cx="180" cy="312" rx="112" ry="12" />
-                  <ellipse cx="180" cy="332" rx="96" ry="11" />
-                  <ellipse cx="180" cy="352" rx="78" ry="10" />
-                  <ellipse cx="180" cy="372" rx="62" ry="9" />
-                </svg>
+                <img
+                  src="assets/project-01.png"
+                  alt="Proyecto Alebri Studio 01"
+                  loading="lazy"
+                />
               </div>
               <div class="project-card__meta">
                 <span class="project-card__index">01</span>
@@ -215,15 +197,11 @@
 
             <article class="project-card">
               <div class="project-card__image">
-                <svg viewBox="0 0 360 480" aria-hidden="true">
-                  <ellipse cx="180" cy="394" rx="108" ry="16" />
-                  <ellipse cx="180" cy="226" rx="114" ry="114" />
-                  <ellipse cx="180" cy="226" rx="84" ry="84" />
-                  <line x1="108" y1="148" x2="252" y2="304" />
-                  <line x1="252" y1="148" x2="108" y2="304" />
-                  <path d="M180 80V120" />
-                  <path d="M180 332V372" />
-                </svg>
+                <img
+                  src="assets/project-02.png"
+                  alt="Proyecto Alebri Studio 02"
+                  loading="lazy"
+                />
               </div>
               <div class="project-card__meta">
                 <span class="project-card__index">02</span>
@@ -233,34 +211,71 @@
 
             <article class="project-card">
               <div class="project-card__image">
-                <svg viewBox="0 0 360 480" aria-hidden="true">
-                  <rect x="96" y="104" width="168" height="268" rx="28" />
-                  <rect x="124" y="132" width="112" height="212" rx="18" />
-                  <path d="M96 206H264" />
-                  <path d="M124 236H236" />
-                  <path d="M124 266H236" />
-                  <path d="M150 104V372" />
-                  <path d="M210 104V372" />
-                </svg>
+                <img
+                  src="assets/project-03.png"
+                  alt="Proyecto Alebri Studio 03"
+                  loading="lazy"
+                />
               </div>
               <div class="project-card__meta">
                 <span class="project-card__index">03</span>
-                <h3>Módulo técnico</h3>
+                <h3>M&oacute;dulo t&eacute;cnico</h3>
               </div>
             </article>
 
             <article class="project-card">
               <div class="project-card__image">
-                <svg viewBox="0 0 360 480" aria-hidden="true">
-                  <ellipse cx="180" cy="404" rx="96" ry="16" class="solid" />
-                  <path d="M132 132C132 104 154 82 182 82C210 82 232 104 232 132V188C232 232 210 270 182 314C154 270 132 232 132 188V132Z" />
-                  <path d="M148 140C148 118 163 102 182 102C201 102 216 118 216 140V186C216 220 201 250 182 278C163 250 148 220 148 186V140Z" />
-                  <path d="M118 340H246" />
-                </svg>
+                <img
+                  src="assets/project-04.png"
+                  alt="Proyecto Alebri Studio 04"
+                  loading="lazy"
+                />
               </div>
               <div class="project-card__meta">
                 <span class="project-card__index">04</span>
-                <h3>Luminaria monolítica</h3>
+                <h3>Luminaria monol&iacute;tica</h3>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__image">
+                <img
+                  src="assets/project-05.png"
+                  alt="Proyecto Alebri Studio 05"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__meta">
+                <span class="project-card__index">05</span>
+                <h3>Objeto editorial</h3>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__image">
+                <img
+                  src="assets/project-06.png"
+                  alt="Proyecto Alebri Studio 06"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__meta">
+                <span class="project-card__index">06</span>
+                <h3>Serie funcional</h3>
+              </div>
+            </article>
+
+            <article class="project-card project-card--wide">
+              <div class="project-card__image">
+                <img
+                  src="assets/project-07.png"
+                  alt="Proyecto Alebri Studio 07"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__meta">
+                <span class="project-card__index">07</span>
+                <h3>Escala de estudio</h3>
               </div>
             </article>
           </div>
@@ -273,26 +288,30 @@
             <p class="eyebrow">Proceso</p>
             <h2>Un flujo claro, con decisiones visibles en cada etapa.</h2>
           </div>
+
           <div class="process-flow">
             <article class="process-step">
               <span class="process-step__number">01</span>
               <h3>Idea</h3>
               <p>Contexto, uso esperado y una primera lectura formal del objeto.</p>
             </article>
+
             <article class="process-step">
               <span class="process-step__number">02</span>
-              <h3>Análisis</h3>
-              <p>Evaluación de geometría, material y viabilidad productiva.</p>
+              <h3>An&aacute;lisis</h3>
+              <p>Evaluaci&oacute;n de geometr&iacute;a, material y viabilidad productiva.</p>
             </article>
+
             <article class="process-step">
               <span class="process-step__number">03</span>
-              <h3>Cotización</h3>
-              <p>Alcance, tiempos, acabados y decisión de formato de entrega.</p>
+              <h3>Cotizaci&oacute;n</h3>
+              <p>Alcance, tiempos, acabados y decisi&oacute;n de formato de entrega.</p>
             </article>
+
             <article class="process-step">
               <span class="process-step__number">04</span>
-              <h3>Producción</h3>
-              <p>Fabricación, control de pieza y cierre con criterio de estudio.</p>
+              <h3>Producci&oacute;n</h3>
+              <p>Fabricaci&oacute;n, control de pieza y cierre con criterio de estudio.</p>
             </article>
           </div>
         </div>
@@ -306,16 +325,37 @@
               <h2>Selecciones sobrias para distintas exigencias de uso.</h2>
             </div>
           </div>
+
           <div class="materials-grid">
             <article class="material-card">
+              <img
+                class="material-card__image"
+                src="assets/material-pla.png"
+                alt="Material PLA"
+                loading="lazy"
+              />
               <span class="material-card__name">PLA</span>
               <span class="material-card__detail">acabado limpio</span>
             </article>
+
             <article class="material-card">
+              <img
+                class="material-card__image"
+                src="assets/material-petg.png"
+                alt="Material PETG"
+                loading="lazy"
+              />
               <span class="material-card__name">PETG</span>
               <span class="material-card__detail">mayor resistencia</span>
             </article>
+
             <article class="material-card">
+              <img
+                class="material-card__image"
+                src="assets/material-tpu.png"
+                alt="Material TPU"
+                loading="lazy"
+              />
               <span class="material-card__name">TPU</span>
               <span class="material-card__detail">flexibilidad controlada</span>
             </article>
@@ -326,12 +366,12 @@
       <section class="section section--statements reveal" id="diferencial">
         <div class="container statements">
           <p class="eyebrow">Diferencial</p>
-          <p class="statement">No es impresión automática.</p>
+          <p class="statement">No es impresi&oacute;n autom&aacute;tica.</p>
           <p class="statement statement--secondary">Cada pieza es un proyecto.</p>
           <p class="statement-copy">
             El estudio trabaja con criterio formal, ajustes reales y decisiones
             que afectan la presencia final del objeto. El resultado no busca
-            parecer genérico; busca sentirse intencional.
+            parecer gen&eacute;rico; busca sentirse intencional.
           </p>
         </div>
       </section>
@@ -344,36 +384,37 @@
               <h2>Preguntas habituales antes de comenzar.</h2>
             </div>
           </div>
+
           <div class="faq-list">
             <article class="faq-item">
               <button class="faq-trigger" type="button" aria-expanded="false">
-                <span>¿Qué necesito para cotizar un proyecto?</span>
+                <span>&iquest;Qu&eacute; necesito para cotizar un proyecto?</span>
                 <span class="faq-trigger__icon"></span>
               </button>
               <div class="faq-panel">
                 <p>
                   Una referencia visual, medidas aproximadas y el uso esperado
-                  suelen ser suficientes para iniciar el análisis.
+                  suelen ser suficientes para iniciar el an&aacute;lisis.
                 </p>
               </div>
             </article>
 
             <article class="faq-item">
               <button class="faq-trigger" type="button" aria-expanded="false">
-                <span>¿Trabajan solo con piezas artísticas?</span>
+                <span>&iquest;Trabajan solo con piezas art&iacute;sticas?</span>
                 <span class="faq-trigger__icon"></span>
               </button>
               <div class="faq-panel">
                 <p>
-                  No. El estudio puede desarrollar objetos estéticos, piezas
-                  funcionales, prototipos y pequeñas series.
+                  No. El estudio puede desarrollar objetos est&eacute;ticos,
+                  piezas funcionales, prototipos y peque&ntilde;as series.
                 </p>
               </div>
             </article>
 
             <article class="faq-item">
               <button class="faq-trigger" type="button" aria-expanded="false">
-                <span>¿Qué materiales recomiendan?</span>
+                <span>&iquest;Qu&eacute; materiales recomiendan?</span>
                 <span class="faq-trigger__icon"></span>
               </button>
               <div class="faq-panel">
@@ -387,13 +428,13 @@
 
             <article class="faq-item">
               <button class="faq-trigger" type="button" aria-expanded="false">
-                <span>¿Pueden producir por lote?</span>
+                <span>&iquest;Pueden producir por lote?</span>
                 <span class="faq-trigger__icon"></span>
               </button>
               <div class="faq-panel">
                 <p>
-                  Sí. Se pueden preparar tirajes pequeños y medianos con control
-                  de consistencia, tiempos y acabados.
+                  S&iacute;. Se pueden preparar tirajes peque&ntilde;os y
+                  medianos con control de consistencia, tiempos y acabados.
                 </p>
               </div>
             </article>
@@ -404,10 +445,10 @@
       <section class="section section--cta reveal" id="contacto">
         <div class="container cta-block">
           <p class="eyebrow">Contacto</p>
-          <h2>¿Tienes una idea?</h2>
+          <h2>&iquest;Tienes una idea?</h2>
           <p>
-            Llevemos la pieza desde su intención inicial hasta una presencia
-            física precisa.
+            Llevemos la pieza desde su intenci&oacute;n inicial hasta una
+            presencia f&iacute;sica precisa.
           </p>
           <a
             class="button button--primary"
@@ -421,18 +462,29 @@
     <footer class="site-footer">
       <div class="container site-footer__inner">
         <div class="footer-brand">
-          <span class="brand__mark"></span>
-          <span class="brand__text">Alebri Studio</span>
+          <img
+            class="brand__logo brand__logo--mark"
+            src="assets/logo-mark.png"
+            alt=""
+          />
+          <img
+            class="brand__logo brand__logo--horizontal"
+            src="assets/logo-horizontal.png"
+            alt=""
+          />
+          <span class="sr-only">Alebri Studio</span>
         </div>
+
         <div class="footer-links">
           <a href="#servicios">Servicios</a>
           <a href="#proyectos">Proyectos</a>
           <a href="#faq">FAQ</a>
           <a href="#contacto">Contacto</a>
         </div>
+
         <p class="footer-copy">
-          Estudio de diseño y fabricación 3D. Portafolio monocromático para
-          piezas, prototipos y series cortas.
+          Estudio de dise&ntilde;o y fabricaci&oacute;n 3D. Portafolio
+          monocrom&aacute;tico para piezas, prototipos y series cortas.
         </p>
       </div>
     </footer>
